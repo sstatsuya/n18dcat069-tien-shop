@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShippingFast } from "@fortawesome/free-solid-svg-icons";
-import LogoImg from "../../assets/img/ic_logo.png";
+import LogoImg from "../../assets/img/ic_logo_2.png";
 import QRImg from "../../assets/img/ic_qr.png";
 import Product1Img from "../../assets/img/ic_product1.png";
 import { Colors } from "../../common/style";

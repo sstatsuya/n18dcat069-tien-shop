@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
-import LogoImg from "../../assets/img/ic_logo.png";
+import LogoImg from "../../assets/img/ic_logo_2.png";
 import QRImg from "../../assets/img/ic_qr.png";
 import FacebookImg from "../../assets/img/ic_facebook.png";
 import GoogleImg from "../../assets/img/ic_google.png";
@@ -115,20 +115,16 @@ const Login = () => {
                 goToHome();
               }}
             />
-            <p className="login__header-title-text">Đăng nhập</p>
+            {/* <p className="login__header-title-text">Đăng nhập</p> */}
           </div>
-          <a
-            href="#"
-            className="login__header-help"
-            style={{ color: Colors.colorOrange }}
-          >
+          <a href="#" className="login__header-help" style={{ color: "black" }}>
             Bạn cần giúp đỡ?
           </a>
         </div>
       </div>
       <div
         className="body flex-row-center"
-        style={{ backgroundColor: Colors.colorOrange }}
+        style={{ backgroundColor: "#ff9a38" }}
       >
         <div className="body-center">
           <div className="body__form">

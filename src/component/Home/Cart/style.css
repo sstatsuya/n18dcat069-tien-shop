@@ -86,7 +86,7 @@
 }
 
 .home__cart__item-price {
-  color: #ee4d2d;
+  color: #666;
   font-size: 13px;
 }
 
@@ -100,9 +100,9 @@
 .home__cart__show-btn {
   margin: 12px 12px 0 0;
   float: right;
-  background-color: #ee4d2d;
+  background-color: #ffd400;
   padding: 8px 12px;
-  color: white;
+  color: black;
   font-size: 13px;
   border-radius: 4px;
   text-decoration: none;

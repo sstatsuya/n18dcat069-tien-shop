@@ -20,7 +20,7 @@ body {
 
 body::-webkit-scrollbar {
   width: 0px;
-  color: black
+  color: black;
 }
 
 * {
@@ -44,7 +44,7 @@ code {
 .fence {
   width: 2px;
   height: 12px;
-  background-color: white;
+  background-color: black;
   opacity: 0.4;
   margin-left: 8px;
   margin-right: 8px;
@@ -53,7 +53,7 @@ code {
 .fence-orange {
   width: 1px;
   height: 48px;
-  background-color: #ee4d2d;
+  background-color: #ffd400;
 }
 
 .padding-bottom-0 {

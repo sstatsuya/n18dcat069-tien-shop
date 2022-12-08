@@ -13,6 +13,7 @@ import {
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
 import LogoImg from "../../assets/img/ic_logo.png";
+import SadImg from "../../assets/img/ic_sad.png";
 import QRImg from "../../assets/img/ic_qr.png";
 import Product1Img from "../../assets/img/ic_product1.png";
 import { Colors } from "../../common/style";
@@ -122,7 +123,7 @@ const Order = () => {
               <img src={Product1Img} className="order__user-info-avatar-img" />
             </div>
             <div className="order__user-info-name">
-              <p className="order__user-info-name-txt">Lương Minh Tiến</p>
+              <p className="order__user-info-name-txt">{name}</p>
               <p className="order__user-info-edit">
                 <FontAwesomeIcon
                   icon={faEdit}
@@ -188,6 +189,12 @@ const Order = () => {
 
         {/* Right content */}
         <div className="order__order-list">
+          {orders.length < 1 && (
+            <div className="order__order-empty">
+              <img src={SadImg} className="order__order-empty__img" />
+              Bạn chưa đặt đơn hàng nào cả
+            </div>
+          )}
           {!getUserOrdersData.data && <LoadingStatic />}
           {sortArrByAttr(orders, "date", -1).map((order, index) => {
             return (
@@ -231,7 +238,7 @@ const Order = () => {
                           </p> */}
                           <p
                             className="cart__item-txt cart__item-price"
-                            style={{ color: "#ee4d2d" }}
+                            style={{ color: "black" }}
                           >
                             {formatMoney(product.price)}
                           </p>

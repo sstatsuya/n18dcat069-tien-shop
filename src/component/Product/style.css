@@ -55,7 +55,7 @@
 }
 
 .product__info-img-stack-item:hover {
-  border: 2px solid #ee4d2d;
+  border: 2px solid #e7c415;
 }
 
 .product__info-name {
@@ -66,8 +66,8 @@
 
 .product__info-name-label {
   font-size: 13px;
-  color: white;
-  background-color: #ee4d2d;
+  color: black;
+  background-color: #ffd400;
   padding: 4px 8px;
   border-radius: 4px;
   margin-right: 12px;
@@ -108,11 +108,11 @@
 }
 
 .product__info-rate-number {
-  color: #ee4d2d;
+  color: #666;
 }
 
 .product__info-star {
-  color: #ee4d2d;
+  color: #e4be00;
   font-size: 13px;
 }
 
@@ -133,7 +133,7 @@
 
 .product__info-price {
   font-size: 22px;
-  color: #ee4d2d;
+  color: black;
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -142,8 +142,8 @@
   padding: 2px 4px;
   text-align: center;
   font-size: 14px;
-  color: white;
-  background-color: #ee4d2d;
+  color: black;
+  background-color: #ffd400;
   border-radius: 4px;
 }
 
@@ -214,8 +214,8 @@
 }
 
 .product__info-add-btn {
-  background-color: #ffeee8;
-  border: 1px solid #ee4d2d;
+  background-color: #feffe8;
+  border: 1px solid #ffd400;
   transition: all ease 0.2s;
   border-radius: 2px;
   display: flex;
@@ -231,24 +231,24 @@
 }
 
 .product__info-add-icon {
-  color: #ee4d2d;
+  color: black;
   font-size: 16px;
 }
 
 .product__info-add-txt {
-  color: #ee4d2d;
+  color: black;
   margin-left: 8px;
   font-size: 16px;
 }
 
 .product__info-buy-btn {
-  background-color: #ee4d2d;
+  background-color: #ffd400;
   margin-left: 12px;
 }
 
 .product__info-buy-txt {
   font: 16px;
-  color: white;
+  color: black;
 }
 
 .product__info-interaction {
@@ -279,7 +279,7 @@
 
 .product__info-love-icon {
   font-size: 20px;
-  color: #ee4d2d;
+  color: #666;
   margin-right: 8px;
 }
 

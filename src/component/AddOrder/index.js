@@ -65,13 +65,13 @@ const AddOrder = ({
         <p className="add-order__title">{title}</p>
         <p className="add-order__address">
           Đơn hàng của bạn sẽ được giao đến{" "}
-          <font color="#ee4d2d">{address}</font>
+          <font color="#ffd400">{address}</font>
         </p>
         <p className="add-order__address">
-          Người đặt hàng <font color="#ee4d2d">{name}</font>
+          Người đặt hàng <font color="#ffd400">{name}</font>
         </p>
         <p className="add-order__address">
-          Số điện thoại <font color="#ee4d2d">{phone}</font>
+          Số điện thoại <font color="#ffd400">{phone}</font>
         </p>
 
         <div className="add-order__content">

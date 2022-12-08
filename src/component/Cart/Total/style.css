@@ -24,7 +24,7 @@
 .total__check {
   width: 40px;
   transform: scale(1.4);
-  accent-color: #ee4d2d;
+  accent-color: #ffd400;
 }
 
 .total__select-all,
@@ -36,8 +36,8 @@
   user-select: none;
 }
 
-.total__remove-all{
-  color: #ee4d2d
+.total__remove-all {
+  color: #666;
 }
 
 .total__money-title {
@@ -47,11 +47,11 @@
 
 .total__money-number {
   font-size: 22px;
-  color: #ee4d2d;
+  color: #666;
 }
 
 .total__buy-btn {
-  background-color: #ee4d2d;
+  background-color: #ffd400;
   padding: 8px 24px;
   cursor: pointer;
   border-radius: 2px;
@@ -64,7 +64,7 @@
 }
 
 .total__buy-btn > p {
-  color: white;
+  color: black;
   font-size: 16px;
   user-select: none;
 }

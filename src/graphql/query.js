@@ -1,25 +1,19 @@
 import { gql } from "@apollo/client";
 
 export const query = gql`
-  query Query(
-    $token: String
-    $name: String
-    $type: String
-    $variables: JSONObject
-  ) {
-    request(token: $token, name: $name, type: $type, variables: $variables) {
+  query Query($name: String, $type: String, $variables: JSONObject) {
+    request(name: $name, type: $type, variables: $variables) {
       data
     }
   }
 `;
 
 export const queryString = `query Query(
-  $token: String
   $name: String
   $type: String
   $variables: JSONObject
 ) {
-  request(token: $token, name: $name, type: $type, variables: $variables) {
+  request(name: $name, type: $type, variables: $variables) {
     data
   }
 }`;

@@ -151,7 +151,7 @@ const ManageOrder = () => {
                 {item.status === 1 ? (
                   <FontAwesomeIcon
                     icon={faStopwatch}
-                    style={{ color: "#ee4d2d" }}
+                    style={{ color: "#ffd400" }}
                   />
                 ) : (
                   <FontAwesomeIcon

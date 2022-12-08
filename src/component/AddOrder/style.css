@@ -24,7 +24,7 @@
 .add-order__title {
   padding: 8px 0 8px 0;
   font-size: 18px;
-  color: #ee4d2d;
+  color: #666;
   font-weight: bold;
 }
 
@@ -67,7 +67,7 @@
   cursor: pointer;
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
-  background-color: #ee4d2d;
+  background-color: #ffd400;
   transition: all ease 0.2s;
 }
 

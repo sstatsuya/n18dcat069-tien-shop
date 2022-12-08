@@ -27,6 +27,7 @@ import {
   timestampToDateTime,
 } from "../../common/helper";
 import LoadingStatic from "../LoadingStatic";
+import { PATHNAME } from "../../common/constant";
 
 const Product = (props) => {
   const dispatch = useDispatch();
@@ -55,16 +56,23 @@ const Product = (props) => {
       dispatch(loginActionsCreator.setLoading(true));
     } else {
       if (addUserProductCartData?.data?.request?.data) {
-        dispatch(loginActionsCreator.setLoading(false));
-        let isExist =
-          addUserProductCartData.data.request.data[
-            VARIABLES.addUserCartProduct().type
-          ].data.isExist;
-        if (isExist) {
-          showToast("Bạn đã thêm sản phẩm này vào giỏ rồi", "info", 1000);
+        if (addUserProductCartData.data.request.data.isError) {
+          history.push({
+            pathname: PATHNAME.LOGIN,
+            needLogin: true,
+          });
         } else {
-          showToast("Đã thêm sản phẩm vào giỏ hàng", "success", 1000);
-          reloadPage(history);
+          dispatch(loginActionsCreator.setLoading(false));
+          let isExist =
+            addUserProductCartData?.data?.request?.data[
+              VARIABLES.addUserCartProduct().type
+            ].data.isExist;
+          if (isExist) {
+            showToast("Bạn đã thêm sản phẩm này vào giỏ rồi", "info", 1000);
+          } else {
+            showToast("Đã thêm sản phẩm vào giỏ hàng", "success", 1000);
+            reloadPage(history);
+          }
         }
       }
     }

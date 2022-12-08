@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.body.flex-row-center {
+  background-image: url("../../assets/img/ic_login_bg.png");
+  background-size: 84%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .flex-row-center {
   display: flex;
   flex-direction: row;
@@ -57,23 +64,12 @@
 .body-center {
   width: 70%;
   height: 600px;
-  background-image: url("../../assets/img/ic_login_bg.png");
+  /* background-image: url("../../assets/img/ic_login_bg.png"); */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-}
-
-.body__form {
-  min-width: 38%;
-  max-width: 50%;
-  background-color: white;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 24px;
 }
 
 .form__header {
@@ -168,9 +164,9 @@
 
 .input-submit {
   width: 100%;
-  background-color: #ee4d2d;
+  background-color: #ffd400;
   border: none;
-  color: white;
+  color: #333;
   padding: 12px;
   font-size: 18px;
   margin-top: 24px;

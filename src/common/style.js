@@ -1,6 +1,6 @@
 export const Colors = {
   colorRed: "red",
-  colorOrange: "#ee4d2d",
+  colorOrange: "#ffd400",
   colorDarkYellow: "#ffbf00",
   colorDarkWhite: "#f5f5f5",
   colorBlueGreen: "#00bfa5",

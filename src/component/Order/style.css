@@ -77,7 +77,7 @@
 
 .order__user-option-item:hover > p {
   cursor: pointer;
-  color: #ee4d2d;
+  color: #666;
   transition: all ease 0.4s;
 }
 
@@ -127,7 +127,7 @@
 
 .order__order-status {
   font-size: 14px;
-  color: #ee4d2d;
+  color: #666;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -199,7 +199,7 @@
 }
 
 .order__order-all-price-icon {
-  color: #ee4d2d;
+  color: #666;
   font-size: 18px;
 }
 
@@ -211,7 +211,7 @@
 
 .order__order-all-price-number {
   font-size: 22px;
-  color: #ee4d2d;
+  color: #eec80a;
   font-weight: 500;
 }
 
@@ -234,7 +234,7 @@
 }
 
 .order__order-rate-suggest {
-  color: #ee4d2d;
+  color: #666;
 }
 
 .order__order-rate-right {
@@ -263,9 +263,25 @@
 }
 
 .order__order-rate-btn:first-child {
-  background-color: #ee4d2d;
+  background-color: #ffd400;
 }
 
 .order__order-rate-btn:first-child > p {
-  color: white;
+  color: black;
+}
+
+.order__order-empty {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  font-size: 18px;
+  color: #999;
+}
+
+.order__order-empty__img {
+  width: 120px;
+  filter: gray;
 }

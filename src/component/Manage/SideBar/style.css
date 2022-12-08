@@ -18,11 +18,11 @@
 
 .sidebar__btn:hover {
   background-color: white;
-  color: #ee4d2d;
+  color: #666;
   transition: all ease 0.2s;
 }
 
 .sidebar__btn.active {
   background-color: white;
-  color: #ee4d2d;
+  color: #666;
 }

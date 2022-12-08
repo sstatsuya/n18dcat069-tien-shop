@@ -117,8 +117,8 @@
   text-align: right;
 }
 
-.home__notification-mark-read:hover{
-  color: #999
+.home__notification-mark-read:hover {
+  color: #999;
 }
 
 .home__notification-bottom {
@@ -134,7 +134,7 @@
   padding: 8px 18px;
   border-radius: 4px;
   transition: all ease 0.4s;
-  background-color: #ee4d2d;
+  background-color: #ffd400;
 }
 
 .home__notification-mark-all-read:hover {
@@ -144,6 +144,6 @@
 }
 
 .home__notification-mark-all-read > p {
-  color: white;
+  color: black;
   font-size: 13px;
 }

@@ -3,21 +3,14 @@
   z-index: 10;
   width: 100%;
   box-sizing: content-box;
-  background-image: linear-gradient(
-    to right,
-    #ee4d2d,
-    #ee4d2d,
-    #ef5b3e,
-    #ee4d2d,
-    #ee4d2d
-  );
+  background-color: #ffd400;
   padding-bottom: 12px;
 }
 
 .header__icon {
   width: 20px;
   aspect-ratio: 1;
-  filter: brightness(0) invert(1);
+  color: black;
 }
 .ml4 {
   margin-left: 4px;
@@ -38,8 +31,8 @@
 
 .logo-img {
   user-select: none;
-  width: 180px;
-  filter: brightness(0) invert(1);
+  width: 220px;
+  cursor: pointer;
 }
 
 .header__search {
@@ -63,13 +56,12 @@
 }
 
 .input {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .search-btn {
-  background-color: #ee4d2d;
   width: 56px;
-  height: 40px;
+  height: 32px;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -78,7 +70,7 @@
 }
 
 .icon-search {
-  color: white;
+  color: black;
 }
 
 .suggest {
@@ -91,7 +83,7 @@
 }
 
 .suggest__txt {
-  color: white;
+  color: black;
   font-size: 13px;
   cursor: pointer;
   margin-right: 8px;
@@ -110,7 +102,7 @@
 }
 
 .header__cart-icon {
-  filter: brightness(0) invert(1);
+  color: black;
   font-size: 24px;
 }
 
@@ -126,7 +118,7 @@
   font-size: 13px;
   padding: 8px 20px;
   border-radius: 4px;
-  color: #ee4d2d;
+  color: black;
   font-weight: 500;
   right: -10px;
   top: calc(100% + 8px);
@@ -152,10 +144,10 @@
   top: -50%;
   right: -70%;
   background-color: white;
+  color: #666;
   padding: 1px 8px;
   font-size: 12px;
   border-radius: 360px;
-  color: #ee4d2d;
-  border: 3px solid #ee4d2d;
+  border: 3px solid #ffd400;
   font-weight: bold;
 }
