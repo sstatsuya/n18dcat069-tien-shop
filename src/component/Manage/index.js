@@ -105,7 +105,7 @@ const Manage = () => {
             </p>
 
             <div className="fence-orange" />
-            <p className="cart__header-content-title">Quản lý Shopee</p>
+            <p className="cart__header-content-title">Quản lý cửa hàng</p>
           </div>
           <div className="cart__search">
             <input

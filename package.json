@@ -1,8 +1,8 @@
 {
-  "name": "shopee-client",
+  "name": "tien-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sstatsuya.github.io/shopee-api-gateway",
+  "homepage": ".",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

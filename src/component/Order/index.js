@@ -181,7 +181,7 @@ const Order = () => {
                 className="order__user-option-item-icon"
               />
               <p src={Product1Img} className="order__user-option-item-txt">
-                Shopee xu
+                Tiến xu
               </p>
             </div>
           </div>

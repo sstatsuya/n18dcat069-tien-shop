@@ -108,7 +108,7 @@ const Header = () => {
             }}
           >
             <FontAwesomeIcon icon={faToolbox} className="header__cart-icon" />
-            <p className="header__order-txt">Quản lý Shopee</p>
+            <p className="header__order-txt">Quản lý cửa hàng</p>
           </div>
         )}
       </div>
