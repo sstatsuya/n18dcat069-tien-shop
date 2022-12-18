@@ -16,7 +16,8 @@ export const LOCALSTORAGE = {
 
 // export const URL = `https://n18dcat069-api-gateway.herokuapp.com/`;
 // export const GATEWAY_API = `https://n18dcat069-api-gateway.herokuapp.com/`;
-export const GATEWAY_API = `http://ec2-13-250-120-141.ap-southeast-1.compute.amazonaws.com/api-gateway/`;
+// export const GATEWAY_API = `http://ec2-13-250-120-141.ap-southeast-1.compute.amazonaws.com/api-gateway/`;
+export const GATEWAY_API = `https://175.41.156.151.nip.io/api-gateway/`;
 // export const GATEWAY_API = `http://localhost:7000/`;
 
 export const AES_KEY = "N18DCAT069N18DCA";

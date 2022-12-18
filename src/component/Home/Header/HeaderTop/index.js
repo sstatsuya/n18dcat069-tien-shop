@@ -98,9 +98,11 @@ const HeaderTop = () => {
   return (
     <div className="header__top">
       <div className="top__left">
-        <p className="top__left-btn">Kênh người bán ahihi</p>
+        <p className="top__left-btn">Kênh người bán</p>
         <div className="fence" />
-        <p className="top__left-btn">Trở thành người bán hàng professional</p>
+        <p className="top__left-btn">
+          Trở thành người bán hàng chuyên nghiệp test
+        </p>
         <div className="fence" />
         <p className="top__left-btn">Tải ứng dụng</p>
         <div className="fence" />
