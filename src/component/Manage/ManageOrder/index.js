@@ -38,6 +38,12 @@ const ManageOrder = () => {
     return temp;
   });
 
+  const getOrderTotal = (item) => {
+    return item.products.reduce((a, b) => {
+      return parseFloat(a) + parseFloat(b.price) * parseFloat(b.quantity);
+    }, 0);
+  };
+
   const history = useHistory();
   const dispatch = useDispatch();
   const userInfo = useSelector((state) => state.login.userInfo);
@@ -208,10 +214,10 @@ const ManageOrder = () => {
                         </p>
                         <div className="manage-order__table-product-price-wrapper">
                           <p className="manage-order__table-product-quantity">
-                            x1
+                            x{product.quantity}
                           </p>
                           <p className="manage-order__table-product-price">
-                            {formatMoney(15000000)}
+                            {formatMoney(product.price)}
                           </p>
                         </div>
                       </div>
@@ -235,7 +241,7 @@ const ManageOrder = () => {
                       className="order__order-all-price-number"
                       style={{ fontSize: "15px" }}
                     >
-                      {formatMoney(1500000545)}
+                      {formatMoney(getOrderTotal(item))}
                     </p>
                   </div>
                 </div>
