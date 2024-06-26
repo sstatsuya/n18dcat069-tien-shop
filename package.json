@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
-  "type": "module",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
